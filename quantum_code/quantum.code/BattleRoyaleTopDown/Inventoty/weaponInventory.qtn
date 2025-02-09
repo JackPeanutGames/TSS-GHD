@@ -1,0 +1,8 @@
+﻿#define INVENTORY_SIZE 3
+
+component WeaponInventory {
+	Int32 CurrentWeaponIndex;
+	array<Weapon>[INVENTORY_SIZE] Weapons;
+}
+
+event ChangeWeapon{entity_ref character; asset_ref<WeaponConfig> config;}

@@ -1,0 +1,5 @@
+﻿asset CollectibleSpawnPointConfig;
+
+component CollectibleSpawnPoint{
+	asset_ref<CollectibleSpawnPointConfig> Config;
+}

@@ -1,0 +1,19 @@
+﻿component Health
+{
+	FP InitialValue;
+	FP MaxValue;
+	[HideInInspector] FP CurrentValue;
+
+	Boolean IsDead;
+	Boolean CanSelfHeal;
+
+	[HideInInspector] FP StartHealingTime;
+	[HideInInspector] FP NextHealTime;
+}
+
+signal OnCharacterDamage(entity_ref  targetCharacter, entity_ref  sourceCharacter,  Int32 damage);
+
+event CharacterDamaged{ entity_ref character; FP damage;}
+event CharacterHealed{ entity_ref character;}
+
+

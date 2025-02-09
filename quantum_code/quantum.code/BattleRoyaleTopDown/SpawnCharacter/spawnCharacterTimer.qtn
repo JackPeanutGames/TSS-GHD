@@ -1,0 +1,6 @@
+﻿component SpawnCharacterTimer{
+	FP Timer;
+	Int32 SpawnIndex;
+}
+
+signal OnCharacterSpawn(entity_ref playerLink, Int32 spawnIndex);

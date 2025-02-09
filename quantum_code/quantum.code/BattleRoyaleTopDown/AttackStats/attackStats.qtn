@@ -1,0 +1,4 @@
+﻿component AttackStats{
+	FP InitialValue;
+	[HideInInspector] FP CurrentValue;
+}

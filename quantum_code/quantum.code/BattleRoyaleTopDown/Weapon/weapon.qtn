@@ -1,0 +1,14 @@
+﻿asset WeaponConfig;
+
+struct Weapon {
+	Int32 TotalAmmo;
+
+	asset_ref<WeaponConfig> Config;
+
+	Boolean IsRecharging;
+	Int32 CurrentAmmo;
+	FP FireRateTimer;
+	FP DelayToStartRechargeTimer;
+	FP RechargeRate;
+	FP ChargeTime;
+}

@@ -1,0 +1,13 @@
+﻿#define INPUT_MAX_MAGNITUDE 10
+
+// Check Input.User.cs for it's (de)coding
+input
+{
+	button Fire;
+	button SpecialSkill;
+
+	byte WeaponIndex;
+
+	Byte EncodedMovementDirection;
+	Byte EncodedActionDirection;
+}

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6aa3f4b19f7f0843a11484892099f09, type: 3}
+  m_Name: RocketProjectileConfig
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: 
+      Guid:
+        Value: 0
+    ProjectilePrototype:
+      Id:
+        Value: 0
+    DestroyCondition: 0
+    TTL:
+      RawValue: 0
+    Damage: 0
+    Range:
+      RawValue: 0
+    Velocity:
+      RawValue: 0
+    SelfDamage: 0
+  Settings_RocketProjectileConfig:
+    Identifier:
+      Path: Resources/DB/Projectiles/RocketProjectileConfig
+      Guid:
+        Value: 3040787224748841464
+    ProjectilePrototype:
+      Id:
+        Value: 1790335386614492205
+    DestroyCondition: -1
+    TTL:
+      RawValue: 131072
+    Damage: 35
+    Range:
+      RawValue: 786432
+    Velocity:
+      RawValue: 98304
+    SelfDamage: 1
+    ExplosionRadius:
+      RawValue: 131072
+    VelocityCurve:
+      Samples:
+      - RawValue: 85956
+      - RawValue: 82253
+      - RawValue: 83294
+      - RawValue: 89273
+      - RawValue: 100381
+      - RawValue: 116811
+      - RawValue: 138756
+      - RawValue: 166410
+      - RawValue: 199964
+      - RawValue: 239612
+      - RawValue: 285546
+      - RawValue: 337960
+      - RawValue: 397045
+      - RawValue: 462996
+      - RawValue: 536004
+      - RawValue: 616262
+      - RawValue: 703964
+      - RawValue: 799302
+      - RawValue: 902468
+      - RawValue: 1013656
+      - RawValue: 1133059
+      - RawValue: 1260869
+      - RawValue: 1397279
+      - RawValue: 1542482
+      - RawValue: 1696671
+      - RawValue: 1860037
+      - RawValue: 2032776
+      - RawValue: 2215078
+      - RawValue: 2407137
+      - RawValue: 2609146
+      - RawValue: 2821297
+      - RawValue: 3043784
+      - RawValue: 3276800
+      PreWrapMode: 0
+      PostWrapMode: 0
+      StartTime:
+        RawValue: 230
+      EndTime:
+        RawValue: 65305
+      Resolution: 32
+      OriginalPreWrapMode: 8
+      OriginalPostWrapMode: 8
+      Keys:
+      - Time:
+          RawValue: 230
+        Value:
+          RawValue: 85956
+        InTangent:
+          RawValue: -193690
+        OutTangent:
+          RawValue: -193690
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0
+      - Time:
+          RawValue: 65305
+        Value:
+          RawValue: 3276800
+        InTangent:
+          RawValue: 7681010
+        OutTangent:
+          RawValue: 7681010
+        TangentMode: 0
+        TangentModeLeft: 0
+        TangentModeRight: 0

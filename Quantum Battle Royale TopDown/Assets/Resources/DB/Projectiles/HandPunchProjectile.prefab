@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5218732805859844143
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8185857150214261884, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: DestroyVFXPrefab
+      value: 
+      objectReference: {fileID: 7918371147361168855, guid: eb56f0b5cee9f1247959a83cff90b233,
+        type: 3}
+    - target: {fileID: 692237531668998560, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 692237531668998560, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: PhysicsBody.IsEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: PhysicsBody.Version2D
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: PhysicsBody.Version3D
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: PhysicsBody.Drag.RawValue
+      value: 58982
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: PhysicsCollider.IsEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: Transform2DVertical.IsEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: PhysicsCollider.Material.Id.Value
+      value: 957307943475144596
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: PhysicsCollider.Shape2D.ShapeType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: Transform2DVertical.Height.RawValue
+      value: 19660
+      objectReference: {fileID: 0}
+    - target: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: PhysicsCollider.Shape2D.CircleRadius.RawValue
+      value: 19660
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220244244106419963, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4153588434588429308, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: m_Name
+      value: HandPunchProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: BindBehaviour
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: OnEntityDestroyed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: OnEntityDestroyed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: OnEntityDestroyed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5046661188823749547}
+    - target: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: OnEntityDestroyed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: OnEntityDestroyed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnDestroyEntity
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: OnEntityDestroyed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: EntityViewEvents, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+        type: 3}
+      propertyPath: OnEntityDestroyed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0aa5e0bbb0fda3940b5cb76350f18f31, type: 3}
+--- !u!1 &8198850926965181395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4153588434588429308, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+    type: 3}
+  m_PrefabInstance: {fileID: 5218732805859844143}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6022493806596614032 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2015532234032433087, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+    type: 3}
+  m_PrefabInstance: {fileID: 5218732805859844143}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8198850926965181395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836dcb7e0f6259748b850a10912ce727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3624991792524081467 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8800639513357359380, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+    type: 3}
+  m_PrefabInstance: {fileID: 5218732805859844143}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8198850926965181395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0008c51fe3af00b4da5d44f02d9b3dff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5046661188823749547 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8185857150214261884, guid: 0aa5e0bbb0fda3940b5cb76350f18f31,
+    type: 3}
+  m_PrefabInstance: {fileID: 5218732805859844143}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8198850926965181395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6948e82b1c89974b83d4dad17cd2f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5072827999727258762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8198850926965181395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e18655bfe6d77428fa175866aee7a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prototype:
+    Grounded:
+      Value: 0
+    VerticalSpeed:
+      RawValue: 0
+--- !u!114 &-5204034688271874751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5baec4de8d2754a864a680181831e8, type: 3}
+  m_Name: HandPunchProjectileEntityView
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Projectiles/HandPunchProjectile|EntityView
+      Guid:
+        Value: 2474117749749832884
+  Parent: {fileID: 3624991792524081467}
+--- !u!114 &-4276908704392124502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0120b722c3ca5454da1240b65656905f, type: 3}
+  m_Name: HandPunchProjectileEntityPrototype
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Projectiles/HandPunchProjectile|EntityPrototype
+      Guid:
+        Value: 2514121498929292184
+  Parent: {fileID: 6022493806596614032}

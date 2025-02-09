@@ -1,0 +1,25 @@
+﻿asset GameplaySettings;
+
+enum GameState {
+    WaitingPlayers, SetupMatch, Presentation, Playing, End
+}
+
+singleton component GameFields {
+    GameState State;
+	FP ChangeStateDelay;
+	
+	asset_ref<GameplaySettings> GameplaySettings;
+}
+
+
+signal OnWaitingPlayersEnd(GameFields* game);
+signal OnSetupMatchEnd(GameFields* game);
+signal OnPresentationEnd(GameFields* game);
+signal OnPlayingEnd(GameFields* game);
+
+event OnSetupMatchEnd{}
+
+synced event OnGameFinish
+{
+    GameFields gameFields;
+}

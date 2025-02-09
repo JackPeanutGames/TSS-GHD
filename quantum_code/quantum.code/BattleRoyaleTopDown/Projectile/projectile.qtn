@@ -1,0 +1,10 @@
+﻿asset ProjectileConfig;
+
+component ProjectileFields{
+	FP TTL;
+	entity_ref Source;
+	FPVector2 Direction;
+	FPVector2 InitialPosition;
+	asset_ref<ProjectileConfig> ProjectileConfig;
+}
+

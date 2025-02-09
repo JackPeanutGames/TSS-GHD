@@ -1,0 +1,9 @@
+﻿#define MAX_PLAYER_COUNT 32
+#pragma max_players MAX_PLAYER_COUNT
+
+component PlayerLink
+{
+	PlayerRef Player;
+	EntityRef Character;
+	Int32 DisconnectedTicks;
+}

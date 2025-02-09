@@ -1,0 +1,30 @@
+﻿asset DeathZoneConfig;
+
+enum DeathZoneState {
+    Waiting, ZoneShrinking
+}
+
+singleton component DeathZone{
+	asset_ref<DeathZoneConfig> Config;
+	DeathZoneState State;
+	FP ChangeStateDelay;
+	FP DamageDelay;
+
+	Int32 Iteration;
+
+	FPVector2 InitialIterationCenter;
+
+	FPVector2 CurrentCenter;
+	FP CurrentRadius;
+
+	FPVector2 TargetCenter;
+	FP TargetRadius;
+}
+
+signal OnWaitingDeathZoneEnd();
+signal OnZoneShrinkingEnd();
+
+synced event StartZoneShrinking{}
+
+
+

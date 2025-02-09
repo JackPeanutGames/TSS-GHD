@@ -1,0 +1,2 @@
+﻿signal OnCharacterDie(entity_ref targetCharacter, entity_ref sourceCharacter);
+signal OnDropPowerUp(FPVector2 position, asset_ref<EntityPrototype> powerUpPrototype);

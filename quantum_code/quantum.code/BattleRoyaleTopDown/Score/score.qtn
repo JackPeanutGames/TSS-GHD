@@ -1,0 +1,3 @@
+﻿component PlayerScore{
+	Int32 Kills;
+}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caddc9a737efc054baa838325a924fd8, type: 3}
+  m_Name: SimplesProjectileConfig
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Projectiles/SimplesProjectileConfig
+      Guid:
+        Value: 553276632792175071
+    ProjectilePrototype:
+      Id:
+        Value: 3971121177242412632
+    DestroyCondition: 2
+    TTL:
+      RawValue: 0
+    Damage: 10
+    Range:
+      RawValue: 983040
+    Velocity:
+      RawValue: 1638400
+    SelfDamage: 0

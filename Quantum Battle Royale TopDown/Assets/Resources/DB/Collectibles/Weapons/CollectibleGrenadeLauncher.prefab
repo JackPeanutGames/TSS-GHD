@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3042964520535006588
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1784033328002326353, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3103520478952174855, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6914670243360744579, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_Name
+      value: CollectibleGrenadeLauncher
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007014272976683417, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9086614678124888471, guid: 3008b302132006743bf880f85a3da39b,
+        type: 3}
+      propertyPath: Prototype.Config.Id.Value
+      value: 1719472225833266360
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3008b302132006743bf880f85a3da39b, type: 3}
+--- !u!114 &5199368705295410385 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7069831530711972269, guid: 3008b302132006743bf880f85a3da39b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3042964520535006588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836dcb7e0f6259748b850a10912ce727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9010767226254660060 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6284321479303564448, guid: 3008b302132006743bf880f85a3da39b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3042964520535006588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0008c51fe3af00b4da5d44f02d9b3dff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &3672932645208212013 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1784033328002326353, guid: 3008b302132006743bf880f85a3da39b,
+    type: 3}
+  m_PrefabInstance: {fileID: 3042964520535006588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3849710114497470259
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3672932645208212013}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.52
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9f8c84b52dd81264ab250b648b572cc0,
+        type: 3}
+      propertyPath: m_Name
+      value: GrenadeLauncher
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f8c84b52dd81264ab250b648b572cc0, type: 3}
+--- !u!114 &349589702857898917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d5baec4de8d2754a864a680181831e8, type: 3}
+  m_Name: CollectibleGrenadeLauncherEntityView
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Collectibles/Weapons/CollectibleGrenadeLauncher|EntityView
+      Guid:
+        Value: 4507649801616531831
+  Parent: {fileID: 9010767226254660060}
+--- !u!114 &5266529087823413775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0120b722c3ca5454da1240b65656905f, type: 3}
+  m_Name: CollectibleGrenadeLauncherEntityPrototype
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Collectibles/Weapons/CollectibleGrenadeLauncher|EntityPrototype
+      Guid:
+        Value: 1733464032996025598
+  Parent: {fileID: 5199368705295410385}

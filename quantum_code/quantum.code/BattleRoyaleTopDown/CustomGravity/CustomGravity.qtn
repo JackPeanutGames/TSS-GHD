@@ -1,0 +1,4 @@
+﻿component CustomGravity{
+	Boolean Grounded;
+	FP VerticalSpeed;
+}

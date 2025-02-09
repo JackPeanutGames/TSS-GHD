@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f5e6f9ecbeaca458895136d85cf8a3, type: 3}
+  m_Name: DeathZoneConfig
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Configs/DeathZoneConfig
+      Guid:
+        Value: 3524397712770748141
+    ReductionRate:
+      RawValue: 65536
+    DamageInterval:
+      RawValue: 65536
+    Radius:
+    - RawValue: 6225920
+    - RawValue: 4587520
+    - RawValue: 3276800
+    - RawValue: 1966080
+    - RawValue: 1310720
+    - RawValue: 524288
+    Timers:
+    - RawValue: 983040
+    - RawValue: 983040
+    - RawValue: 983040
+    - RawValue: 983040
+    - RawValue: 983040
+    - RawValue: 327680
+    Damages: 010000000200000003000000030000000300000003000000
+    DebugMode: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17a8ef66c749be4db5f85658314777d, type: 3}
+  m_Name: CollectibleSpawnPointConfig
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Collectibles/CollectibleSpawn/CollectibleSpawnPointConfig
+      Guid:
+        Value: 4260761960435305344
+    Collectibles:
+    - Id:
+        Value: 1719472225833266360
+    - Id:
+        Value: 2571538846316139839
+    - Id:
+        Value: 3097358632125504899
+    - Id:
+        Value: 2571538846316139839
+    - Id:
+        Value: 82285716085993370
+    - Id:
+        Value: 1719472225833266360
+    - Id:
+        Value: 2571538846316139839
+    - Id:
+        Value: 3097358632125504899

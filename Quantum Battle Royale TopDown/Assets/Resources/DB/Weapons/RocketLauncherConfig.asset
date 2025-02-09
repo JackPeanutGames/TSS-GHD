@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa44df31f901334da53b354edaa349f, type: 3}
+  m_Name: RocketLauncherConfig
+  m_EditorClassIdentifier: 
+  Settings:
+    Identifier:
+      Path: Resources/DB/Weapons/RocketLauncherConfig
+      Guid:
+        Value: 1842404006544586640
+    InitialAmmo: 10
+    InfiniteAmmo: 0
+    FireRate:
+      RawValue: 131072
+    MaxAmmo: 3
+    RechargeTimer:
+      RawValue: 65536
+    TimeToRecharge:
+      RawValue: 65536
+    ProjectileConfig:
+      Id:
+        Value: 3040787224748841464
+    CollectibleConfig:
+      Id:
+        Value: 3097358632125504899
+    IndexOnView: 8

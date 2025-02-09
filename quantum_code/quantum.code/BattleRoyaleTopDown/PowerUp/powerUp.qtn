@@ -1,0 +1,3 @@
+﻿asset PowerUpConfig;
+
+event CollectPowerUp{ entity_ref character; PowerUpConfig powerUpConfig;}

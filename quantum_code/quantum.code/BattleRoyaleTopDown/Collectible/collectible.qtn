@@ -1,0 +1,11 @@
+﻿asset CollectibleConfig;
+
+component Collectible{
+	asset_ref<CollectibleConfig> Config;
+	entity_ref TargetCharacter;
+	FP TimerToCollect;
+}
+
+signal OnDropCollectible(asset_ref<CollectibleConfig> collectibleConfigRef, FPVector2 position);
+
+event CollectItem{ entity_ref character; CollectibleConfig collectible;}

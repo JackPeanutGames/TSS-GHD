@@ -1,0 +1,11 @@
+﻿#define POWER_UP_AMOUNT  2
+
+component PowerUpInventoty{
+	//[HideInInspector]
+	array<PowerUpSlot>[POWER_UP_AMOUNT] Slots;
+}
+
+struct PowerUpSlot{
+	asset_ref<PowerUpConfig> Config;
+	Int32 Amount;
+}

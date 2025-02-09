@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd8e95ae0daaec4496511105240e8a3, type: 3}
+  m_Name: AssetResources
+  m_EditorClassIdentifier: 
+  AssetBundlesGroup:
+    _resources: []
+  ResourcesGroup:
+    _resources:
+    - Path: Resources/DB/Configs/DefaultPhysicsMaterial
+      AssetRef:
+        Id:
+          Value: 1
+      ResourcePath: DB/Configs/DefaultPhysicsMaterial
+    - Path: Resources/DB/Configs/DefaultNavMeshAgentConfig
+      AssetRef:
+        Id:
+          Value: 2
+      ResourcePath: DB/Configs/DefaultNavMeshAgentConfig
+    - Path: Resources/DB/Configs/DefaultCharacterController2D
+      AssetRef:
+        Id:
+          Value: 3
+      ResourcePath: DB/Configs/DefaultCharacterController2D
+    - Path: Resources/DB/Configs/DefaultCharacterController3D
+      AssetRef:
+        Id:
+          Value: 4
+      ResourcePath: DB/Configs/DefaultCharacterController3D
+    - Path: Resources/DB/Configs/SimulationConfig
+      AssetRef:
+        Id:
+          Value: 5
+      ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/Collectibles/PowerUps/HealPowerUpCollectibleConfig
+      AssetRef:
+        Id:
+          Value: 82285716085993370
+      ResourcePath: DB/Collectibles/PowerUps/HealPowerUpCollectibleConfig
+    - Path: Resources/DB/Projectiles/GrenadeProjectileConfig
+      AssetRef:
+        Id:
+          Value: 182012746807358158
+      ResourcePath: DB/Projectiles/GrenadeProjectileConfig
+    - Path: Resources/DB/Configs/GameplaySettings
+      AssetRef:
+        Id:
+          Value: 414217213228557127
+      ResourcePath: DB/Configs/GameplaySettings
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleRocketLauncher|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 484849227127776657
+      ResourcePath: DB/Collectibles/Weapons/CollectibleRocketLauncher
+    - Path: Resources/DB/Projectiles/SimplesProjectileConfig
+      AssetRef:
+        Id:
+          Value: 553276632792175071
+      ResourcePath: DB/Projectiles/SimplesProjectileConfig
+    - Path: Resources/DB/Collectibles/PowerUps/AttackPowerUpConfig
+      AssetRef:
+        Id:
+          Value: 689401452360249848
+      ResourcePath: DB/Collectibles/PowerUps/AttackPowerUpConfig
+    - Path: Resources/DB/Projectiles/RocketProjectile|EntityView
+      AssetRef:
+        Id:
+          Value: 906363079808461633
+      ResourcePath: DB/Projectiles/RocketProjectile
+    - Path: Resources/DB/Character/KCCSettingsAsset
+      AssetRef:
+        Id:
+          Value: 924520126804286174
+      ResourcePath: DB/Character/KCCSettingsAsset
+    - Path: Resources/DB/Projectiles/GrenadePhysicsMaterial
+      AssetRef:
+        Id:
+          Value: 957307943475144596
+      ResourcePath: DB/Projectiles/GrenadePhysicsMaterial
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleMachinegun|EntityView
+      AssetRef:
+        Id:
+          Value: 979554721741310151
+      ResourcePath: DB/Collectibles/Weapons/CollectibleMachinegun
+    - Path: Resources/DB/Projectiles/GrenadeProjectile|EntityView
+      AssetRef:
+        Id:
+          Value: 1371486696676774988
+      ResourcePath: DB/Projectiles/GrenadeProjectile
+    - Path: Resources/DB/Collectibles/PowerUps/AttackPowerUpCollectible|EntityView
+      AssetRef:
+        Id:
+          Value: 1561984256354642086
+      ResourcePath: DB/Collectibles/PowerUps/AttackPowerUpCollectible
+    - Path: Resources/DB/Character/CharacterBase|EntityView
+      AssetRef:
+        Id:
+          Value: 1621046839168165773
+      ResourcePath: DB/Character/CharacterBase
+    - Path: Resources/DB/Map1
+      AssetRef:
+        Id:
+          Value: 1710471675203725834
+      ResourcePath: DB/Map1
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleGrenadeLauncherConfig
+      AssetRef:
+        Id:
+          Value: 1719472225833266360
+      ResourcePath: DB/Collectibles/Weapons/CollectibleGrenadeLauncherConfig
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleGrenadeLauncher|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1733464032996025598
+      ResourcePath: DB/Collectibles/Weapons/CollectibleGrenadeLauncher
+    - Path: Resources/DB/Collectibles/PowerUps/HealPowerUpCollectible|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1747568554416688091
+      ResourcePath: DB/Collectibles/PowerUps/HealPowerUpCollectible
+    - Path: Resources/DB/Projectiles/RocketProjectile|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1790335386614492205
+      ResourcePath: DB/Projectiles/RocketProjectile
+    - Path: Resources/DB/Weapons/RocketLauncherConfig
+      AssetRef:
+        Id:
+          Value: 1842404006544586640
+      ResourcePath: DB/Weapons/RocketLauncherConfig
+    - Path: Resources/DB/Collectibles/CollectibleBase|EntityView
+      AssetRef:
+        Id:
+          Value: 1878828386671078314
+      ResourcePath: DB/Collectibles/CollectibleBase
+    - Path: Resources/DB/Collectibles/PowerUps/AttackPowerUpCollectibleConfig
+      AssetRef:
+        Id:
+          Value: 1891306176144544108
+      ResourcePath: DB/Collectibles/PowerUps/AttackPowerUpCollectibleConfig
+    - Path: Resources/DB/Projectiles/HandPunchProjectileConfig
+      AssetRef:
+        Id:
+          Value: 2106167401009369225
+      ResourcePath: DB/Projectiles/HandPunchProjectileConfig
+    - Path: Resources/DB/Weapons/GrenadeLauncherConfig
+      AssetRef:
+        Id:
+          Value: 2106205743101683471
+      ResourcePath: DB/Weapons/GrenadeLauncherConfig
+    - Path: Resources/DB/Collectibles/PowerUps/HealPowerUpConfig
+      AssetRef:
+        Id:
+          Value: 2122229143379463429
+      ResourcePath: DB/Collectibles/PowerUps/HealPowerUpConfig
+    - Path: Resources/DB/Weapons/SimpleWeaponConfig
+      AssetRef:
+        Id:
+          Value: 2272103074555980317
+      ResourcePath: DB/Weapons/SimpleWeaponConfig
+    - Path: Resources/DB/Collectibles/CollectibleSpawn/CollectibleSpawn|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2395594130982868816
+      ResourcePath: DB/Collectibles/CollectibleSpawn/CollectibleSpawn
+    - Path: Resources/DB/SpawnPoint/SpawnPoint|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2436342029217480429
+      ResourcePath: DB/SpawnPoint/SpawnPoint
+    - Path: Resources/DB/Projectiles/ProjectileBase|EntityView
+      AssetRef:
+        Id:
+          Value: 2457505021948296717
+      ResourcePath: DB/Projectiles/ProjectileBase
+    - Path: Resources/DB/Projectiles/HandPunchProjectile|EntityView
+      AssetRef:
+        Id:
+          Value: 2474117749749832884
+      ResourcePath: DB/Projectiles/HandPunchProjectile
+    - Path: Resources/DB/Map1_mesh
+      AssetRef:
+        Id:
+          Value: 2489951592896761645
+      ResourcePath: DB/Map1_mesh
+    - Path: Resources/DB/Projectiles/HandPunchProjectile|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2514121498929292184
+      ResourcePath: DB/Projectiles/HandPunchProjectile
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleMachinegunConfig
+      AssetRef:
+        Id:
+          Value: 2571538846316139839
+      ResourcePath: DB/Collectibles/Weapons/CollectibleMachinegunConfig
+    - Path: Resources/DB/Collectibles/PowerUps/AttackPowerUpCollectible|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2608592243731507521
+      ResourcePath: DB/Collectibles/PowerUps/AttackPowerUpCollectible
+    - Path: Resources/DB/Projectiles/GrenadeProjectile|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 2701522838346122539
+      ResourcePath: DB/Projectiles/GrenadeProjectile
+    - Path: Resources/DB/SpawnPoint/SpawnPoint|EntityView
+      AssetRef:
+        Id:
+          Value: 2704261592227802026
+      ResourcePath: DB/SpawnPoint/SpawnPoint
+    - Path: Resources/DB/Projectiles/RocketProjectileConfig
+      AssetRef:
+        Id:
+          Value: 3040787224748841464
+      ResourcePath: DB/Projectiles/RocketProjectileConfig
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleRocketLauncherConfig
+      AssetRef:
+        Id:
+          Value: 3097358632125504899
+      ResourcePath: DB/Collectibles/Weapons/CollectibleRocketLauncherConfig
+    - Path: Resources/DB/Configs/DeathZoneConfig
+      AssetRef:
+        Id:
+          Value: 3524397712770748141
+      ResourcePath: DB/Configs/DeathZoneConfig
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleRocketLauncher|EntityView
+      AssetRef:
+        Id:
+          Value: 3705090768711737373
+      ResourcePath: DB/Collectibles/Weapons/CollectibleRocketLauncher
+    - Path: Resources/DB/Weapons/HandPunchConfig
+      AssetRef:
+        Id:
+          Value: 3727446134651661573
+      ResourcePath: DB/Weapons/HandPunchConfig
+    - Path: Resources/DB/Character/CharacterBase|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 3760200490093358737
+      ResourcePath: DB/Character/CharacterBase
+    - Path: Resources/DB/Collectibles/PowerUps/HealPowerUpCollectible|EntityView
+      AssetRef:
+        Id:
+          Value: 3851585125767317463
+      ResourcePath: DB/Collectibles/PowerUps/HealPowerUpCollectible
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleMachinegun|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 3906726483142284567
+      ResourcePath: DB/Collectibles/Weapons/CollectibleMachinegun
+    - Path: Resources/DB/Collectibles/CollectibleBase|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 3933563064661180503
+      ResourcePath: DB/Collectibles/CollectibleBase
+    - Path: Resources/DB/Projectiles/ProjectileBase|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 3971121177242412632
+      ResourcePath: DB/Projectiles/ProjectileBase
+    - Path: Resources/DB/Collectibles/CollectibleSpawn/CollectibleSpawnPointConfig
+      AssetRef:
+        Id:
+          Value: 4260761960435305344
+      ResourcePath: DB/Collectibles/CollectibleSpawn/CollectibleSpawnPointConfig
+    - Path: Resources/DB/Collectibles/Weapons/CollectibleGrenadeLauncher|EntityView
+      AssetRef:
+        Id:
+          Value: 4507649801616531831
+      ResourcePath: DB/Collectibles/Weapons/CollectibleGrenadeLauncher
